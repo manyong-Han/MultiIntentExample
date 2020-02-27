@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_intro"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:layout_x="300px"
+            android:layout_y="100px"
+            android:background="#00ff00"
+            android:gravity="center"
+            android:onClick="myListener_intro"
+            android:text="Introduce" />
+
+        <Button
+            android:id="@+id/btn_setting"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:layout_x="300px"
+            android:layout_y="300px"
+            android:background="#0000ff"
+            android:gravity="center"
+            android:onClick="myListener_setup"
+            android:text="Setting" />
+
+        <Button
+            android:id="@+id/btn_start"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:layout_x="300px"
+            android:layout_y="500px"
+            android:background="#ff0000"
+            android:onClick="myListener_start"
+            android:gravity="center"
+            android:text="Start" />
+
+    </AbsoluteLayout>
+
+</FrameLayout>
